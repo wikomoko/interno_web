@@ -1,51 +1,51 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-5">
-            <a class="logo-brand" href="#">
-                <img src="assets/img/Logo.png" class="mb-2" alt="Logo Interno">
+            <a class="logo-brand text-size-40 text-font-dm text-weight-400 color-primary-2" href="#">
+                <img src="assets/img/Logo.svg" class="mb-2" alt="Logo Interno">
                 Interno
             </a>
-            <p class="text-footer mt-3">It is a long established fact that a reader <br> will be distracted lookings.</p>
+            <p class="text-footer text-size-22 text-font-jost text-weight-400 mt-3">It is a long established fact that a reader <br> will be distracted lookings.</p>
         </div>
         <div class="col-md-2">
-            <h3 class="title-footer">Pages</h3>
+            <h3 class="title-footer text-size-25 text-font-dm text-weight-400 color-primary-2">Pages</h3>
             <div class="mt-4">
-                <a class="text-footer" href="#">About Us</a>
+                <a class="text-footer text-size-22 text-font-jost text-weight-400" href="#">About Us</a>
             </div>
             <div class="mt-4">
-                <a class="text-footer" href="#">Our Projects</a>
+                <a class="text-footer text-size-22 text-font-jost text-weight-400" href="#">Our Projects</a>
             </div>
             <div class="mt-4">
-                <a class="text-footer" href="#">Our Team</a>
+                <a class="text-footer text-size-22 text-font-jost text-weight-400" href="#">Our Team</a>
             </div>
             <div class="mt-4">
-                <a class="text-footer" href="#">Contact Us</a>
+                <a class="text-footer text-size-22 text-font-jost text-weight-400" href="#">Contact Us</a>
             </div>
             <div class="mt-4">
-                <a class="text-footer" href="#">Services</a>
+                <a class="text-footer text-size-22 text-font-jost text-weight-400" href="#">Services</a>
             </div>
         </div>
         <div class="col-md-2">
-            <h3 class="title-footer">Services</h3>
+            <h3 class="title-footer text-size-25 text-font-dm text-weight-400 color-primary-2">Services</h3>
             <div class="mt-4">
-                <a class="text-footer" href="#">Kitchan</a>
+                <a class="text-footer text-size-22 text-font-jost text-weight-400" href="#">Kitchan</a>
             </div>
             <div class="mt-4">
-                <a class="text-footer" href="#">Living Area</a>
+                <a class="text-footer text-size-22 text-font-jost text-weight-400" href="#">Living Area</a>
             </div>
             <div class="mt-4">
-                <a class="text-footer" href="#">Bathroom</a>
+                <a class="text-footer text-size-22 text-font-jost text-weight-400" href="#">Bathroom</a>
             </div>
             <div class="mt-4">
-                <a class="text-footer" href="#">Dinning Hall</a>
+                <a class="text-footer text-size-22 text-font-jost text-weight-400" href="#">Dinning Hall</a>
             </div>
             <div class="mt-4">
-                <a class="text-footer" href="#">Bedroom</a>
+                <a class="text-footer text-size-22 text-font-jost text-weight-400" href="#">Bedroom</a>
             </div>
         </div>
         <div class="col-md-3">
-            <h3 class="title-footer">Contact</h3>
-            <p class="text-footer mt-4">
+            <h3 class="title-footer text-size-25 text-font-dm text-weight-400 color-primary-2">Contact</h3>
+            <p class="text-footer text-size-22 text-font-jost text-weight-400 mt-4">
                 55 East Birchwood Ave. 
                 Brooklyn, New York 11201
                 <br><br>
