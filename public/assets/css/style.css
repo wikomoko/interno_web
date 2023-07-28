@@ -65,3 +65,54 @@
     font-weight: 400;
 }
 /* End Footer */
+
+/* style text */
+.text-size-40{
+    font-size: 40px;
+}
+.text-size-20{
+    font-size: 20px;
+}
+.text-size-85{
+    font-size: 85px;
+}
+.text-size-22{
+    font-size: 22px;
+}
+.text-size-18{
+    font-size: 18px;
+}
+.text-size-16{
+    font-size: 16px;
+} 
+.text-size-25{
+    font-size: 25px;
+}
+.text-size-50{
+    font-size: 50px;
+}
+.text-size-24{
+    font-size: 24px;
+}
+.text-size-35{
+    font-size: 35px;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-weight-400{
+    font-weight: 400;
+}
+.text-weight-600{
+    font-weight: 600;
+}
+.text-weight-700{
+    font-weight: 700;
+}
+.text-font-dm{
+    font-family: 'DM Serif Display', serif;
+}
+.text-font-jost{
+    font-family: 'Jost', sans-serif;
+}
+/* end of style text */
