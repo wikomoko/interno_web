@@ -2,7 +2,6 @@
     --primary1 : #cda274;
     --primary2 : #292f36;
     --primary3 : #f4f0ec;
-    --body-color : #fff;
 
     --main-font : 'Jost', sans-serif;
     --heading-font : 'DM Serif Display', serif;
@@ -17,54 +16,17 @@
     text-decoration: none !important;
 }
 
-/* Navbar */
-.navbar {
-    height: 110px;
-    background-color: var(--body-color);
+/* Style Color */
+.color-primary-1 {
+    color: var(--primary1);
 }
-
-.navbar .navbar-brand {
-    font-family: var(--heading-font);
-    font-size: 40px;
-    font-weight: 400;
-}
-
-.navbar .navbar-brand img {
-    width: 34px;
-    height: 34px;
-    align-items: center;
-}
-
-.navbar .nav-link {
-    font-size: 20px;
-    font-weight: 400;
-}
-/* End Navbar */
-
-/* Footer */
-.logo-brand {
+.color-primary-2 {
     color: var(--primary2);
-    font-family: var(--heading-font);
-    font-size: 40px;
-    font-weight: 400;
-    text-decoration: none;
 }
-
-.text-footer {
-    color: #4D5053;
-    font-family: var(--main-font);
-    font-size: 22px;
-    font-weight: 400;
-    text-decoration: none;
+.color-primary-3 {
+    color: var(--primary3);
 }
-
-.title-footer {
-    color: var(--primary2);
-    font-family: var(--heading-font);
-    font-size: 25px;
-    font-weight: 400;
-}
-/* End Footer */
+/* End Style Color */
 
 /* style text */
 .text-size-40{
@@ -110,9 +72,32 @@
     font-weight: 700;
 }
 .text-font-dm{
-    font-family: 'DM Serif Display', serif;
+    font-family: var(--heading-font);
 }
 .text-font-jost{
-    font-family: 'Jost', sans-serif;
+    font-family: var(--main-font);
 }
 /* end of style text */
+
+/* Navbar */
+.navbar {
+    height: 110px;
+    background-color: #fff;
+}
+
+.nav-link:hover {
+    color: var(--primary2);
+    font-weight: bold;
+}
+/* End Navbar */
+
+/* Footer */
+.text-footer {
+    color: #4D5053;
+}
+
+.text-footer:hover {
+    color: #4D5053;
+    font-weight: bold;
+}
+/* End Footer */
