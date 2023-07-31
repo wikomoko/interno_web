@@ -6,14 +6,12 @@
     <div class="container jumbotron-home-content">
         <h1 class="text-size-85 text-font-dm text-weight-400">Let Your Home <br> Be Unique</h1>
         <p class="text-size-22 text-weight-400">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <button class="btn default-btn text-size-18 text-weight-600" type="button">
-            Get Started
-            <img src="assets/img/vector-right.svg" class="mb-1 ms-1" alt="">
-        </button>
+        <x-button.primary href="#">Get Started</x-button.primary>
     </div>
 </div>
 
 <div class="container">
+
     {{-- work content --}}
     <div class="row work-content">
         <div class="col-md-4 text-center">
@@ -52,10 +50,7 @@
                 <img src="assets/img/call-icon.svg">
                 <p class="text-size-22 text-weight-400 ms-3"><span class="text-size-24 text-weight-700">012345678 <br></span>Call Us Anytime</p>
             </div>
-            <button class="btn default-btn text-size-18 text-weight-600 mt-5" type="button">
-                Get Free Estimate
-                <img src="assets/img/vector-right.svg" class="mb-1 ms-1" alt="">
-            </button>
+            <x-button.primary class="mt-5" href="#">Get Free Estimate</x-button.primary>
         </div>
         <div class="col-md-6">
             <img src="assets/img/img-about.svg" class="img-about">
@@ -192,6 +187,7 @@
         </div>
     </div>
     {{-- end of project --}}
+
 </div>
 
 {{-- amount --}}
@@ -280,6 +276,7 @@
     <div class="home-contact">
         <h1 class="text-size-50 text-font-dm text-weight-400">Wanna join the interno?</h1>
         <p class="text-size-22 text-weight-400">It is a long established fact  will be distracted.</p>
+        <x-button.secondary class="mt-3" href="#">Contact With Us</x-button.secondary>
     </div>
     {{-- end of home-contact --}}
 
