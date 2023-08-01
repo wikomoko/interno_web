@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[MainController::class,'index']);
 Route::get('/about',[MainController::class,'about']);
 Route::get('/services_single',[MainController::class,'services_single']);
+Route::get('/404',[MainController::class,'not_found']);

@@ -16,4 +16,7 @@ class MainController extends Controller
     function services_single() {
         return view('pages.services_single');
     }
+    function not_found() {
+        return view('pages.404');
+    }
 }

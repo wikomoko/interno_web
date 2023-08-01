@@ -78,6 +78,15 @@
 .text-size-35{
     font-size: 35px;
 }
+.text-size-100{
+    font-size: 100px;
+}
+.text-size-150{
+    font-size: 150px;
+}
+.text-size-250{
+    font-size: 250px;
+}
 .text-italic{
     font-style: italic;
 }
@@ -398,3 +407,12 @@
     line-height: 50px;
 }
 /* end of service detail page */
+
+/* 404 page style */
+.img_404{
+    background-image: url("/assets/img/page_404/banner.jpg");
+    background-size: cover;
+    border-bottom-left-radius: 353px;
+    height: 90vh;
+}
+/* end of 404 page style */
