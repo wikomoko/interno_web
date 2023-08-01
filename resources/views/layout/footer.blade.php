@@ -1,5 +1,5 @@
-<div class="container mt-5">
-    <div class="row text-center text-md-start">
+<div class="footer container">
+    <div class="row">
         <div class="col-md-5">
             <a class="logo-brand text-size-40 text-font-dm text-weight-400 color-primary-2" href="#">
                 <img src="assets/img/Logo.svg" class="mb-2" alt="Logo Interno">

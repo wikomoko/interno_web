@@ -13,4 +13,7 @@ class MainController extends Controller
     function about() {
         return view('pages.about');
     }
+    function services_single() {
+        return view('pages.services_single');
+    }
 }

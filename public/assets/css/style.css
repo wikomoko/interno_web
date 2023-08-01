@@ -96,6 +96,10 @@
 .text-font-jost{
     font-family: var(--main-font);
 }
+
+.text-justify{
+    text-align: justify !important;
+}
 /* end of style text */
 
 /* Navbar */
@@ -111,6 +115,10 @@
 /* End Navbar */
 
 /* Footer */
+.footer {
+    margin-top: 80px;
+}
+
 .text-footer {
     color: #4D5053;
 }
@@ -121,6 +129,314 @@
 }
 /* End Footer */
 
+/* Home */
+.jumbotron-home {
+    background-image: url('/assets/img/jumbotron-home.jpg');
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    border-bottom-left-radius: 151px;
+    display: cover;
+}
+
+.jumbotron-home-content {
+    position: relative;
+    top: 45%;
+    transform: translate(0, -50%);
+}
+
+.jumbotron-home-content h1 {
+    font-size: 55px;
+}
+
+.jumbotron-home-content p {
+    font-size: 16px;
+}
+
+.work-content {
+    margin-top: 80px;
+}
+
+.work-content div {
+    margin-bottom: 50px;
+}
+
+.work-content-btn {
+    color: var(--primary2);
+    margin-bottom: 30px;
+}
+
+.about-content {
+    margin-top: 60px;
+}
+
+.about-sub-content h1 {
+    font-size: 40px;
+}
+
+.about-sub-content p {
+    font-size: 19px;
+}
+
+.img-about {
+    display: none;
+}
+
+.testimonial {
+    padding: 48px 12px;
+    background-color: var(--primary3);
+    border-radius: 60px;
+    margin-top: 60px;
+}
+
+.testimonial h1 {
+    font-size: 30px;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    padding: 27px;
+    border-radius: 27px;
+    height: 349px;
+    margin-bottom: 20px;
+}
+
+.testimonial-card-body {
+    text-align: justify;
+}
+
+.client {
+    margin-top: 60px;
+    display: block;
+}
+
+.client-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.home-project {
+    margin-top: 60px;
+}
+
+.home-project h1 {
+    font-size: 30px;
+}
+
+.home-project-card {
+    border: none;
+    margin-top: 50px;
+}
+
+.home-project-card-img-1 {
+    border-top-right-radius: 100px;
+}
+
+.home-project-card-img-2 {
+    border-top-left-radius: 100px;
+}
+
+.home-project-card-img-3 {
+    border-bottom-right-radius: 100px;
+}
+
+.home-project-card-img-4 {
+    border-bottom-left-radius: 100px;
+}
+
+.home-project-card-body {
+    color: var(--primary2);
+}
+
+.amount {
+    background-color: var(--primary3);
+    padding: 100px 0;
+    margin-top: 60px;
+}
+
+.amount-content {
+    border-right: none;
+    margin-top: 20px;
+}
+
+.amount-content h1 {
+    color: var(--primary1);
+}
+
+.home-blog {
+    margin-top: 60px;
+}
+
+.home-blog h1 {
+    font-size: 30px;
+}
+
+.home-blog-card {
+    border-radius: 62px;
+    padding: 21px;
+    margin-top: 20px;
+}
+
+.home-blog-card:hover {
+    background-color: var(--primary3);
+}
+
+.home-blog-card img {
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+}
+
+.home-blog-card-img-content {
+    width: 124px;
+    margin-top: -60px;
+    margin-left: 22px;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 8px 8px 8px 0px;
+}
+
+.home-blog-card-body {
+    margin-top: 35px !important;
+}
+
+.home-contact {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: var(--primary2);
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .jumbotron-home {
+        height: 900px;
+        border-bottom-left-radius: 291px;
+    }
+
+    .jumbotron-home-content {
+        top: 50%;
+    }
+
+    .jumbotron-home-content h1 {
+        font-size: 85px;
+    }
+    
+    .jumbotron-home-content p {
+        font-size: 22px;
+    }
+
+    .work-content {
+        margin-top: 170px;
+    }
+
+    .work-content-text {
+        margin-bottom: 52px;
+    }
+
+    .about-content {
+        margin-top: 180px;
+    }
+
+    .about-sub-content h1 {
+        font-size: 50px;
+    }
+
+    .about-sub-content p {
+        font-size: 22px;
+        margin-right: 180px;
+    }
+
+    .img-about {
+        display: block;
+        border-top-right-radius: 326px;
+        border-bottom-left-radius: 123px;
+    }
+
+    .testimonial {
+        padding: 88px 24px;
+        margin-top: 180px;
+    }
+
+    .testimonial h1 {
+        font-size: 50px;
+    }
+
+    .testimonial-card {
+        padding: 58px 37px;
+        height: 339px;
+        margin-bottom: 0;
+    }
+
+    .client {
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .client-img {
+        margin-bottom: 0;
+    }
+
+    .home-project {
+        margin-top: 150px;
+    }
+
+    .home-project h1 {
+        font-size: 50px;
+    }
+
+    .home-project p {
+        margin: 0 280px;
+    }
+
+    .home-project .row {
+        margin-top: 93px;
+    }
+
+    .home-project-card {
+        margin: 0 35px;
+    }
+
+    .amount {
+        padding: 151px 0;
+        margin-top: 150px;
+    }
+
+    .amount-content {
+        border-right: 1px solid var(--primary1);
+        margin-top: 0;
+    }
+
+    .home-blog {
+        margin-top: 150px;
+    }
+
+    .home-blog h1 {
+        font-size: 50px;
+    }
+
+    .home-blog p {
+        margin: 0 250px;
+    }
+
+    .home-blog-card {
+        margin-top: 0;
+    }
+
+    .home-contact {
+        margin-top: 150px;
+        padding: 80px 315px;
+        border-radius: 70px;
+    }
+}
+/* End of Desktop Version */
+
+/* End of Home */
+
 /* component */
 .img_round_rectange_pad{
     border-radius: 70px;
@@ -129,6 +445,12 @@
     border-radius: 18px;
     padding: 18px 40px;
     border: none;
+}
+.pad_banner{
+    width: 400px;
+    border-top-left-radius: 37px;
+    border-top-right-radius: 37px;
+    padding: 24px 42px 14px 42px;    
 }
 /* end of component */
 
@@ -142,12 +464,7 @@
     justify-content: center;
     align-items: end;
 }
-.pad_banner{
-    width: 400px;
-    border-top-left-radius: 37px;
-    border-top-right-radius: 37px;
-    padding: 24px 42px 14px 42px;    
-}
+
 .quote_pad{
     border-width: 15px;
     border-color: var(--primary3);
@@ -169,3 +486,24 @@
     margin-top: 77px;
 }
 /* end about page style */
+
+/* service detail page style */
+.banner_services_single{
+    background-image: url("/assets/img/page_service_detail/banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 58vh;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.margin_vertical_200{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.custom-li li{
+    line-height: 50px;
+}
+/* end of service detail page */
