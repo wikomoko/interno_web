@@ -37,20 +37,20 @@
                     </p>
                 </div>
             </div>
-            <div class="client row">
-                <div class="col client-img">
+            <div class="client row d-md-flex justify-content-md-between d-block">
+                <div class="col d-flex justify-content-center align-items-center mb-md-0">
                     <img src="assets/img/client-1.svg"> 
                 </div>
-                <div class="col client-img">
+                <div class="col d-flex justify-content-center align-items-center mb-md-0">
                     <img src="assets/img/client-2.svg"> 
                 </div>
-                <div class="col client-img">
+                <div class="col d-flex justify-content-center align-items-center mb-md-0">
                     <img src="assets/img/client-3.svg"> 
                 </div>
-                <div class="col client-img">
+                <div class="col d-flex justify-content-center align-items-center mb-md-0">
                     <img src="assets/img/client-4.svg"> 
                 </div>
-                <div class="col client-img">
+                <div class="col d-flex justify-content-center align-items-center mb-md-0">
                     <img src="assets/img/client-5.svg"> 
                 </div>
             </div>

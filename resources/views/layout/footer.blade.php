@@ -1,4 +1,4 @@
-<div class="footer container">
+<div class="footer container text-center text-md-start">
     <div class="row">
         <div class="col-md-5">
             <a class="logo-brand text-size-40 text-font-dm text-weight-400 color-primary-2" href="#">
