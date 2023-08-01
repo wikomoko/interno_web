@@ -23,15 +23,21 @@ class MainController extends Controller
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     function services() {
         return view('pages.services');
 =======
+=======
+>>>>>>> ae87a678185c729db862145f1c2b6182b6842bcf
     function channelog() {
         return view('pages.channelog');
     }
 
     function password() {
         return view('pages.password');
+<<<<<<< HEAD
+>>>>>>> ae87a678185c729db862145f1c2b6182b6842bcf
+=======
 >>>>>>> ae87a678185c729db862145f1c2b6182b6842bcf
     }
 }
