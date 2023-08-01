@@ -111,6 +111,15 @@
 }
 /* end of style text */
 
+/* border style */
+.border-radius-70{
+    border-radius: 70px;
+}
+.border-radius-45{
+    border-radius: 45px;
+}
+/* end of border style */
+
 /* Navbar */
 .navbar {
     /* height: 110px; */
@@ -407,6 +416,16 @@
     line-height: 50px;
 }
 /* end of service detail page */
+
+/* channelog page style */
+.card_primary_pad{
+    height: 360px;
+}
+.margin_vertical_100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* end of channelog page style */
 
 /* 404 page style */
 .img_404{

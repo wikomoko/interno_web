@@ -19,4 +19,7 @@ class MainController extends Controller
     function not_found() {
         return view('pages.404');
     }
+    function channelog() {
+        return view('pages.channelog');
+    }
 }
