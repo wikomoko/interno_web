@@ -33,4 +33,8 @@ class MainController extends Controller
     function password() {
         return view('pages.password');
     }
+
+    function pricing() {
+        return view('pages.pricing');
+    }
 }

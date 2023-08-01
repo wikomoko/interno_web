@@ -21,3 +21,4 @@ Route::get('/404',[MainController::class,'not_found']);
 Route::get('/services',[MainController::class,'services']);
 Route::get('/channelog',[MainController::class,'channelog']);
 Route::get('/password',[MainController::class,'password']);
+Route::get('/pricing',[MainController::class,'pricing']);
