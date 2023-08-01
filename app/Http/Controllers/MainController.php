@@ -37,4 +37,8 @@ class MainController extends Controller
     function contact() {
         return view('pages.contact');
     }
+    
+    function pricing() {
+        return view('pages.pricing');
+    }
 }
