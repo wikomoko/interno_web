@@ -18,4 +18,9 @@ Route::get('/',[MainController::class,'index']);
 Route::get('/about',[MainController::class,'about']);
 Route::get('/services_single',[MainController::class,'services_single']);
 Route::get('/404',[MainController::class,'not_found']);
+<<<<<<< HEAD
 Route::get('/services',[MainController::class,'services']);
+=======
+Route::get('/channelog',[MainController::class,'channelog']);
+Route::get('/password',[MainController::class,'password']);
+>>>>>>> ae87a678185c729db862145f1c2b6182b6842bcf

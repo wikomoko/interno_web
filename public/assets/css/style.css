@@ -114,6 +114,15 @@
 }
 /* end of style text */
 
+/* border style */
+.border-radius-70{
+    border-radius: 70px;
+}
+.border-radius-45{
+    border-radius: 45px;
+}
+/* end of border style */
+
 /* Navbar */
 .navbar {
     /* height: 110px; */
@@ -411,6 +420,16 @@
 }
 /* end of service detail page */
 
+/* channelog page style */
+.card_primary_pad{
+    min-height: 360px;
+}
+.margin_vertical_100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* end of channelog page style */
+
 /* 404 page style */
 .img_404{
     background-image: url("/assets/img/page_404/banner.jpg");
@@ -426,9 +445,6 @@
     background-size: cover;
     width: 100%;
     height: 58vh;
-    display: flex;
-    justify-content: center;
-    align-items: end;
 }
 
 .work-step {
@@ -460,3 +476,16 @@
 /* end of Desktop Version */
 
 /* end of services page style */
+
+/* password page style */
+.banner_password{
+    background-image: url("/assets/img/page_password/banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 58vh;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+/* end of password page style */
