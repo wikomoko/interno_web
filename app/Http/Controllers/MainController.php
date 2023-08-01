@@ -24,9 +24,12 @@ class MainController extends Controller
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     function services() {
         return view('pages.services');
 =======
+=======
+>>>>>>> ae87a678185c729db862145f1c2b6182b6842bcf
 =======
 >>>>>>> ae87a678185c729db862145f1c2b6182b6842bcf
     function channelog() {
@@ -36,6 +39,9 @@ class MainController extends Controller
     function password() {
         return view('pages.password');
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ae87a678185c729db862145f1c2b6182b6842bcf
+=======
 >>>>>>> ae87a678185c729db862145f1c2b6182b6842bcf
 =======
 >>>>>>> ae87a678185c729db862145f1c2b6182b6842bcf
