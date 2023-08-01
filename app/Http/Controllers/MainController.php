@@ -13,13 +13,20 @@ class MainController extends Controller
     function about() {
         return view('pages.about');
     }
+
     function services_single() {
         return view('pages.services_single');
     }
+
     function not_found() {
         return view('pages.404');
     }
+
     function channelog() {
         return view('pages.channelog');
+    }
+
+    function password() {
+        return view('pages.password');
     }
 }
