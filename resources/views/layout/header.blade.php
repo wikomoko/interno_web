@@ -1,6 +1,6 @@
 
 <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+    <div class="container">
         <a class="navbar-brand text-size-40 text-font-dm text-weight-400" href="#">
             <img src="assets/img/Logo.svg" class="mb-2" alt="Logo Interno">
             Interno
