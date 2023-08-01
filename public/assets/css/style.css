@@ -121,16 +121,11 @@
 .border-radius-45{
     border-radius: 45px;
 }
+.border-radius-50{
+    border-radius: 50px;
+}
 /* end of border style */
 
-/* border style */
-.border-radius-70{
-    border-radius: 70px;
-}
-.border-radius-45{
-    border-radius: 45px;
-}
-/* end of border style */
 
 /* Navbar */
 .navbar {
@@ -501,4 +496,17 @@
     align-items: end;
 }
 /* end of password page style */
-/* end of password page style */
+
+/* contact page style */
+.banner_contact{
+    background-image: url("/assets/img/page_contact/banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 58vh;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+/* end of contact page style */
