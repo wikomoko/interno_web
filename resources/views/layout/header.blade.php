@@ -17,7 +17,7 @@
             <a class="nav-link text-size-20 text-weight-400 me-4" href="#">Blog</a>
             <a class="nav-link text-size-20 text-weight-400 me-4" href="#">Contact</a>
             <a class="nav-link" href="#">
-                <img src="assets/img/Search.svg" class="mb-2">
+                <img src="{{ asset('assets/img/icons/search.svg') }}" class="mb-2">
             </a>
         </div>
       </div>

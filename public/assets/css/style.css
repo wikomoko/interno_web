@@ -81,6 +81,9 @@
 .text-size-100{
     font-size: 100px;
 }
+.text-size-120{
+    font-size: 120px;
+}
 .text-size-150{
     font-size: 150px;
 }
@@ -140,7 +143,7 @@
 
 /* Home */
 .jumbotron-home {
-    background-image: url('/assets/img/jumbotron-home.jpg');
+    background-image: url('/assets/img/page_home/jumbotron-home.jpg');
     background-size: cover;
     height: 650px;
     width: 100%;
@@ -416,3 +419,44 @@
     height: 90vh;
 }
 /* end of 404 page style */
+
+/* services page style */
+.banner_services{
+    background-image: url("/assets/img/page_service/banner.svg");
+    background-size: cover;
+    width: 100%;
+    height: 58vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.work-step {
+    margin-top: 60px;
+    border-radius: 70px;
+    padding: 70px 20px;
+}
+
+.work-step-content {
+    padding-top: 30px;
+}
+
+.img-services-content {
+    border-radius: 0px 123px 0px 326.5px;
+    width: 453px;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .work-step {
+        margin-top: 150px;
+        padding: 160px 116px;
+    }
+
+    .work-step-content {
+        padding-top: 100px;
+    }
+}
+/* end of Desktop Version */
+
+/* end of services page style */

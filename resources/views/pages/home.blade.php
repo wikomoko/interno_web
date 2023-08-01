@@ -22,7 +22,7 @@
                 <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                 <span class="text-size-18 text-weight-600">
                     Read More
-                    <img src="assets/img/vector-right.svg" class="mb-1 ms-1">
+                    <img src="{{ asset('assets/img/icons/arrow_cream.svg') }}" class="mb-1 ms-1">
                 </span>
             </a>
         </div>
@@ -32,7 +32,7 @@
                 <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                 <span class="text-size-18 text-weight-600">
                     Read More
-                    <img src="assets/img/vector-right.svg" class="mb-1 ms-1">
+                    <img src="{{ asset('assets/img/icons/arrow_cream.svg') }}" class="mb-1 ms-1">
                 </span>
             </a>
         </div>
@@ -42,7 +42,7 @@
                 <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                 <span class="text-size-18 text-weight-600">
                     Read More
-                    <img src="assets/img/vector-right.svg" class="mb-1 ms-1">
+                    <img src="{{ asset('assets/img/icons/arrow_cream.svg') }}" class="mb-1 ms-1">
                 </span>
             </a>
         </div>
@@ -57,7 +57,7 @@
             <p class="text-size-22 text-weight-400 d-md-block d-none">It is a long established fact that a reader will be <br> distracted by the of readable content of a page <br> when lookings at its layouts the points of using <br> that it has a more-or-less normal.</p>
             <p class="text-size-18 text-weight-400 d-md-none text-center">It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
             <div class="d-flex align-items-center justify-content-md-start justify-content-center mt-md-5 mt-4">
-                <img src="assets/img/call-icon.svg">
+                <img src="{{ asset('assets/img/icons/call-circle.svg') }}">
                 <p class="text-size-22 text-weight-400 ms-3"><span class="text-size-24 text-weight-700">012345678 <br></span>Call Us Anytime</p>
             </div>
             <div class="text-md-start text-center mt-md-5 mt-4">
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <img src="assets/img/img-about.svg" class="img-about d-md-block d-none">
+            <img src="{{ asset('assets/img/page_home/img-about.svg') }}" class="img-about d-md-block d-none">
         </div>
     </div>
     {{-- end of about --}}
@@ -78,7 +78,7 @@
             <div class="col-md-4">
                 <div class="testimonial-card">
                     <div class="d-flex align-items-center">
-                        <img src="assets/img/testimonial-img-1.svg">
+                        <img src="{{ asset('assets/img/page_home/testimonial-img-1.svg') }}">
                         <div class="ms-3">
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Nattasha Mith</h3>
                             <span class="text-size-18 text-weight-400">Sudney, USA</span>
@@ -92,7 +92,7 @@
             <div class="col-md-4">
                 <div class="testimonial-card">
                     <div class="d-flex align-items-center">
-                        <img src="assets/img/testimonial-img-1.svg">
+                        <img src="{{ asset('assets/img/page_home/testimonial-img-1.svg') }}">
                         <div class="ms-3">
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Raymond Galario</h3>
                             <span class="text-size-18 text-weight-400">Sudney, Australia</span>
@@ -106,7 +106,7 @@
             <div class="col-md-4">
                 <div class="testimonial-card">
                     <div class="d-flex align-items-center">
-                        <img src="assets/img/testimonial-img-1.svg">
+                        <img src="{{ asset('assets/img/page_home/testimonial-img-1.svg') }}">
                         <div class="ms-3">
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Benny Roll</h3>
                             <span class="text-size-18 text-weight-400">Sudney, New York</span>
@@ -124,19 +124,19 @@
     {{-- client logo --}}
     <div class="client row d-md-flex justify-content-md-between d-block">
         <div class="col d-flex justify-content-center align-items-center mb-md-0">
-            <img src="assets/img/client-1.svg"> 
+            <img src="{{ asset('assets/img/page_home/client-1.svg') }}"> 
         </div>
         <div class="col d-flex justify-content-center align-items-center mb-md-0">
-            <img src="assets/img/client-2.svg"> 
+            <img src="{{ asset('assets/img/page_home/client-2.svg') }}"> 
         </div>
         <div class="col d-flex justify-content-center align-items-center mb-md-0">
-            <img src="assets/img/client-3.svg"> 
+            <img src="{{ asset('assets/img/page_home/client-3.svg') }}"> 
         </div>
         <div class="col d-flex justify-content-center align-items-center mb-md-0">
-            <img src="assets/img/client-4.svg"> 
+            <img src="{{ asset('assets/img/page_home/client-4.svg') }}"> 
         </div>
         <div class="col d-flex justify-content-center align-items-center mb-md-0">
-            <img src="assets/img/client-5.svg"> 
+            <img src="{{ asset('assets/img/page_home/client-5.svg') }}"> 
         </div>
     </div>
     {{-- end of client logo --}}
@@ -150,25 +150,25 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card border-0 mt-md-0 mt-5 ms-md-5 me-md-5">
-                    <img src="assets/img/project-img-1.svg" class="card-img-top home-project-card-img-1">
+                    <img src="{{ asset('assets/img/page_home/project-img-1.svg') }}" class="card-img-top home-project-card-img-1">
                     <a href="#" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
                         <div>
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Modern Kitchan</h3>
                             <span class="text-size-25 text-weight-400">Decor / Artchitecture</span>
                         </div>
-                        <img src="assets/img/vector-right-circle.svg">
+                        <img src="{{ asset('assets/img/icons/vector-right-circle.svg') }}">
                     </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card border-0 mt-md-0 mt-5 ms-md-5 me-md-5">
-                    <img src="assets/img/project-img-1.svg" class="card-img-top home-project-card-img-2">
+                    <img src="{{ asset('assets/img/page_home/project-img-1.svg') }}" class="card-img-top home-project-card-img-2">
                     <a href="#" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
                         <div>
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Modern Kitchan</h3>
                             <span class="text-size-25 text-weight-400">Decor / Artchitecture</span>
                         </div>
-                        <img src="assets/img/vector-right-circle.svg">
+                        <img src="{{ asset('assets/img/icons/vector-right-circle.svg') }}">
                     </a>
                 </div>
             </div>
@@ -177,25 +177,25 @@
         <div class="row mt-md-5">
             <div class="col-md-6">
                 <div class="card border-0 mt-md-0 mt-5 ms-md-5 me-md-5">
-                    <img src="assets/img/project-img-1.svg" class="card-img-top home-project-card-img-3">
+                    <img src="{{ asset('assets/img/page_home/project-img-1.svg') }}" class="card-img-top home-project-card-img-3">
                     <a href="#" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
                         <div>
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Modern Kitchan</h3>
                             <span class="text-size-25 text-weight-400">Decor / Artchitecture</span>
                         </div>
-                        <img src="assets/img/vector-right-circle.svg">
+                        <img src="{{ asset('assets/img/icons/vector-right-circle.svg') }}">
                     </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card border-0 mt-md-0 mt-5 ms-md-5 me-md-5">
-                    <img src="assets/img/project-img-1.svg" class="card-img-top home-project-card-img-4">
+                    <img src="{{ asset('assets/img/page_home/project-img-1.svg') }}" class="card-img-top home-project-card-img-4">
                     <a href="#" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
                         <div>
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Modern Kitchan</h3>
                             <span class="text-size-25 text-weight-400">Decor / Artchitecture</span>
                         </div>
-                        <img src="assets/img/vector-right-circle.svg">
+                        <img src="{{ asset('assets/img/icons/vector-right-circle.svg') }}">
                     </a>
                 </div>
             </div>
@@ -242,7 +242,7 @@
         <div class="row mt-md-5">
             <div class="col-md-4">
                 <a href="" class="card home-blog-card mt-md-0 mt-2">
-                    <img src="assets/img/home-blog-img-1.svg" class="card-img-top">
+                    <img src="{{ asset('assets/img/page_home/home-blog-img-1.svg') }}" class="card-img-top">
                     <div class="home-blog-card-img-content text-center mb-2">
                         <span class="text-size-16 text-weight-400">Kitchan Design</span>
                     </div>
@@ -257,7 +257,7 @@
             </div>
             <div class="col-md-4">
                 <a href="" class="card home-blog-card mt-md-0 mt-4">
-                    <img src="assets/img/home-blog-img-1.svg" class="card-img-top">
+                    <img src="{{ asset('assets/img/page_home/home-blog-img-1.svg') }}" class="card-img-top">
                     <div class="home-blog-card-img-content text-center mb-2">
                         <span class="text-size-16 text-weight-400">Kitchan Design</span>
                     </div>
@@ -272,7 +272,7 @@
             </div>
             <div class="col-md-4">
                 <a href="" class="card home-blog-card mt-md-0 mt-4">
-                    <img src="assets/img/home-blog-img-1.svg" class="card-img-top">
+                    <img src="{{ asset('assets/img/page_home/home-blog-img-1.svg') }}" class="card-img-top">
                     <div class="home-blog-card-img-content text-center mb-2">
                         <span class="text-size-16 text-weight-400">Kitchan Design</span>
                     </div>
