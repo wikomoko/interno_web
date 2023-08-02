@@ -41,4 +41,8 @@ class MainController extends Controller
     function pricing() {
         return view('pages.pricing');
     }
+
+    function team() {
+        return view('pages.team');
+    }
 }

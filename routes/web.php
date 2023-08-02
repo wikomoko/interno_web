@@ -23,3 +23,4 @@ Route::get('/channelog',[MainController::class,'channelog']);
 Route::get('/password',[MainController::class,'password']);
 Route::get('/contact',[MainController::class,'contact']);
 Route::get('/pricing',[MainController::class,'pricing']);
+Route::get('/team',[MainController::class,'team']);

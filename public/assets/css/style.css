@@ -124,6 +124,9 @@
 .border-radius-50{
     border-radius: 50px;
 }
+.border-radius-30{
+    border-radius: 30px;
+}
 /* end of border style */
 
 
@@ -540,3 +543,16 @@
     border-radius: 18px;
 }
 /* end of pricing page style */
+
+/* team page style */
+.banner_team{
+    background-image: url("/assets/img/page_team/banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 58vh;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+/* end of team style page */
