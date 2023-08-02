@@ -45,4 +45,8 @@ class MainController extends Controller
     function team() {
         return view('pages.team');
     }
+
+    function project_details() {
+        return view('pages.project_details');
+    }
 }
