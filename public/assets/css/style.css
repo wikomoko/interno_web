@@ -584,3 +584,33 @@
     }
 }
 /* end of project details page style */
+
+/* faq page style */
+.banner_faq {
+    background-image: url("/assets/img/page_faq/banner.svg");
+    background-size: cover;
+    width: 100%;
+    height: 58vh;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.accordion-item {
+    border: 1px solid var(--primary1);
+    padding-bottom: 32px;
+}
+
+.faq-accordion-btn:not(.collapsed) {
+    box-shadow: none;
+    background-color: #fff;
+    color: var(--primary1);
+    padding: 20px 20px 2px 0;
+}
+
+.faq-accordion-btn.collapsed {
+    box-shadow: none;
+    padding: 20px 20px 2px 0;
+}
+/* end of faq page style */
