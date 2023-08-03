@@ -17,7 +17,7 @@
             <div class="row d-flex align-items-center mt-5">
                 <div class="col-md-6 pe-md-5">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
+                        <div class="faq-accordion-item accordion-item">
                             <h2 class="accordion-header">
                                 <button class="faq-accordion-btn accordion-button collapsed text-size-25 text-font-dm text-weight-400" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-faq-1" aria-expanded="false" aria-controls="accordion-faq-1  ps-0 ms-0">
                                     What is the Hipcouch Interior Design Service?
@@ -27,7 +27,7 @@
                                 <div class="accordion-body text-size-22 text-font-400 text-justify ps-0 pe-5 pb-0">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised.</div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="faq-accordion-item accordion-item">
                             <h2 class="accordion-header">
                                 <button class="faq-accordion-btn accordion-button collapsed text-size-25 text-font-dm text-weight-400" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-faq-2" aria-expanded="false" aria-controls="accordion-faq-2  ps-0 ms-0">
                                     So, how exactly does this work?
@@ -37,7 +37,7 @@
                                 <div class="accordion-body text-size-22 text-font-400 text-justify ps-0 pe-5 pb-0">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised.</div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="faq-accordion-item accordion-item">
                             <h2 class="accordion-header">
                                 <button class="faq-accordion-btn accordion-button collapsed text-size-25 text-font-dm text-weight-400" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-faq-3" aria-expanded="false" aria-controls="accordion-faq-3  ps-0 ms-0">
                                     What cities do you currently operate in?
@@ -47,7 +47,7 @@
                                 <div class="accordion-body text-size-22 text-font-400 text-justify ps-0 pe-5 pb-0">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised.</div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="faq-accordion-item accordion-item">
                             <h2 class="accordion-header">
                                 <button class="faq-accordion-btn accordion-button collapsed text-size-25 text-font-dm text-weight-400" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-faq-4" aria-expanded="false" aria-controls="accordion-faq-4  ps-0 ms-0">
                                     Hipcouch Interior Design Service?
@@ -57,7 +57,7 @@
                                 <div class="accordion-body text-size-22 text-font-400 text-justify ps-0 pe-5 pb-0">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised.</div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="faq-accordion-item accordion-item">
                             <h2 class="accordion-header">
                                 <button class="faq-accordion-btn accordion-button collapsed text-size-25 text-font-dm text-weight-400" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-faq-5" aria-expanded="false" aria-controls="accordion-faq-5  ps-0 ms-0">
                                     What kind of interior designers do you have?
@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
+                        <div class="faq-accordion-item accordion-item">
                             <h2 class="accordion-header">
                                 <button class="faq-accordion-btn accordion-button collapsed text-size-25 text-font-dm text-weight-400" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-faq-6" aria-expanded="false" aria-controls="accordion-faq-6  ps-0 ms-0">
                                     What is the Hipcouch Interior Design Service?
@@ -95,7 +95,7 @@
                                 <div class="accordion-body text-size-22 text-font-400 text-justify ps-0 pe-5 pb-0">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised.</div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="faq-accordion-item accordion-item">
                             <h2 class="accordion-header">
                                 <button class="faq-accordion-btn accordion-button collapsed text-size-25 text-font-dm text-weight-400" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-faq-7" aria-expanded="false" aria-controls="accordion-faq-7  ps-0 ms-0">
                                     So, how exactly does this work?
@@ -105,7 +105,7 @@
                                 <div class="accordion-body text-size-22 text-font-400 text-justify ps-0 pe-5 pb-0">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised.</div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="faq-accordion-item accordion-item">
                             <h2 class="accordion-header">
                                 <button class="faq-accordion-btn accordion-button collapsed text-size-25 text-font-dm text-weight-400" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-faq-8" aria-expanded="false" aria-controls="accordion-faq-8  ps-0 ms-0">
                                     What cities do you currently operate in?
@@ -115,7 +115,7 @@
                                 <div class="accordion-body text-size-22 text-font-400 text-justify ps-0 pe-5 pb-0">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised.</div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="faq-accordion-item accordion-item">
                             <h2 class="accordion-header">
                                 <button class="faq-accordion-btn accordion-button collapsed text-size-25 text-font-dm text-weight-400" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-faq-9" aria-expanded="false" aria-controls="accordion-faq-9  ps-0 ms-0">
                                     Hipcouch Interior Design Service?
@@ -125,7 +125,7 @@
                                 <div class="accordion-body text-size-22 text-font-400 text-justify ps-0 pe-5 pb-0">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary popular belief.There are many variations of passages of Lorem Ipsum available, but the majority randomised.</div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="faq-accordion-item accordion-item">
                             <h2 class="accordion-header">
                                 <button class="faq-accordion-btn accordion-button collapsed text-size-25 text-font-dm text-weight-400" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-faq-10" aria-expanded="false" aria-controls="accordion-faq-10  ps-0 ms-0">
                                     What kind of interior designers do you have?

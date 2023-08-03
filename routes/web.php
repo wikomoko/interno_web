@@ -28,3 +28,4 @@ Route::get('/project_details',[MainController::class,'project_details']);
 Route::get('/faq',[MainController::class,'faq']);
 Route::get('/blog',[MainController::class,'blog']);
 Route::get('/project',[MainController::class,'project']);
+Route::get('/team_single',[MainController::class,'team_single']);
