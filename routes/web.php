@@ -26,3 +26,4 @@ Route::get('/pricing',[MainController::class,'pricing']);
 Route::get('/team',[MainController::class,'team']);
 Route::get('/project_details',[MainController::class,'project_details']);
 Route::get('/faq',[MainController::class,'faq']);
+Route::get('/blog',[MainController::class,'blog']);

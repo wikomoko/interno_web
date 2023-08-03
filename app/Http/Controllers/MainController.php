@@ -53,4 +53,8 @@ class MainController extends Controller
     function faq() {
         return view('pages.faq');
     }
+
+    function blog() {
+        return view('pages.blog');
+    }
 }
