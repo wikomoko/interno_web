@@ -57,4 +57,8 @@ class MainController extends Controller
     function blog() {
         return view('pages.blog');
     }
+
+    function project() {
+        return view('pages.project');
+    }
 }
