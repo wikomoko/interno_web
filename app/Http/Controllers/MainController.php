@@ -61,4 +61,8 @@ class MainController extends Controller
     function team_single() {
         return view('pages.team_single');
     }
+
+    function blog_details() {
+        return view('pages.blog_details');
+    }
 }
