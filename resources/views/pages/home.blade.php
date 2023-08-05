@@ -17,7 +17,7 @@
     {{-- work content --}}
     <div class="row work-content">
         <div class="col-md-4 text-center mb-5 mb-md-0">
-            <a href="#">
+            <a href="{{ route('services_single') }}">
                 <h3 class="text-size-25 text-font-dm text-weight-400 mb-3">Project Plan</h3>
                 <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                 <span class="text-size-18 text-weight-600">
@@ -27,7 +27,7 @@
             </a>
         </div>
         <div class="col-md-4 text-center mb-5 mb-md-0">
-            <a href="#">
+            <a href="{{ route('services_single') }}">
                 <h3 class="text-size-25 text-font-dm text-weight-400 mb-3">Interior Work</h3>
                 <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                 <span class="text-size-18 text-weight-600">
@@ -37,7 +37,7 @@
             </a>
         </div>
         <div class="col-md-4 text-center mb-5 mb-md-0">
-            <a href="#">
+            <a href="{{ route('services_single') }}">
                 <h3 class="text-size-25 text-font-dm text-weight-400 mb-3">Realization</h3>
                 <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                 <span class="text-size-18 text-weight-600">
@@ -61,7 +61,7 @@
                 <p class="text-size-22 text-weight-400 ms-3"><span class="text-size-24 text-weight-700">012345678 <br></span>Call Us Anytime</p>
             </div>
             <div class="text-md-start text-center mt-md-5 mt-4">
-                <x-button.primary href="#">Get Free Estimate</x-button.primary>
+                <x-button.primary href="{{ route('pricing') }}">Get Free Estimate</x-button.primary>
             </div>
         </div>
         <div class="col-md-6">
@@ -151,7 +151,7 @@
             <div class="col-md-6">
                 <div class="card border-0 mt-md-0 mt-5 ms-md-5 me-md-5">
                     <img src="{{ asset('assets/img/page_home/project-img-1.svg') }}" class="card-img-top home-project-card-img-1">
-                    <a href="#" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
+                    <a href="{{ route('project_details') }}" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
                         <div>
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Modern Kitchan</h3>
                             <span class="text-size-25 text-weight-400">Decor / Artchitecture</span>
@@ -163,7 +163,7 @@
             <div class="col-md-6">
                 <div class="card border-0 mt-md-0 mt-5 ms-md-5 me-md-5">
                     <img src="{{ asset('assets/img/page_home/project-img-1.svg') }}" class="card-img-top home-project-card-img-2">
-                    <a href="#" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
+                    <a href="{{ route('project_details') }}" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
                         <div>
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Modern Kitchan</h3>
                             <span class="text-size-25 text-weight-400">Decor / Artchitecture</span>
@@ -178,7 +178,7 @@
             <div class="col-md-6">
                 <div class="card border-0 mt-md-0 mt-5 ms-md-5 me-md-5">
                     <img src="{{ asset('assets/img/page_home/project-img-1.svg') }}" class="card-img-top home-project-card-img-3">
-                    <a href="#" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
+                    <a href="{{ route('project_details') }}" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
                         <div>
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Modern Kitchan</h3>
                             <span class="text-size-25 text-weight-400">Decor / Artchitecture</span>
@@ -190,7 +190,7 @@
             <div class="col-md-6">
                 <div class="card border-0 mt-md-0 mt-5 ms-md-5 me-md-5">
                     <img src="{{ asset('assets/img/page_home/project-img-1.svg') }}" class="card-img-top home-project-card-img-4">
-                    <a href="#" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
+                    <a href="{{ route('project_details') }}" class="home-project-card-body d-flex justify-content-between align-items-center mt-4">
                         <div>
                             <h3 class="text-size-25 text-font-dm text-weight-400 mb-0">Modern Kitchan</h3>
                             <span class="text-size-25 text-weight-400">Decor / Artchitecture</span>
@@ -241,7 +241,7 @@
 
         <div class="row mt-md-5">
             <div class="col-md-4">
-                <a href="" class="card home-blog-card mt-md-0 mt-2">
+                <a href="{{ route('blog_details') }}" class="card home-blog-card mt-md-0 mt-2">
                     <img src="{{ asset('assets/img/page_home/home-blog-img-1.svg') }}" class="card-img-top">
                     <div class="home-blog-card-img-content text-center mb-2">
                         <span class="text-size-16 text-weight-400">Kitchan Design</span>
@@ -250,13 +250,13 @@
                         <h3 class="text-size-25 text-font-dm text-weight-400">Let’s Get Solution For Building Construction Work</h3>
                         <div class="d-flex justify-content-between align-items-center mt-3 mb-3">
                             <span class="text-size-16 text-weight-400">26 December,2022 </span>
-                            <img src="assets/img/vector-right-circle.svg" width="52px">
+                            <img src="{{ asset('assets/img/icons/vector-right-circle.svg') }}" width="52px">
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="" class="card home-blog-card mt-md-0 mt-4">
+                <a href="{{ route('blog_details') }}" class="card home-blog-card mt-md-0 mt-4">
                     <img src="{{ asset('assets/img/page_home/home-blog-img-1.svg') }}" class="card-img-top">
                     <div class="home-blog-card-img-content text-center mb-2">
                         <span class="text-size-16 text-weight-400">Kitchan Design</span>
@@ -265,13 +265,13 @@
                         <h3 class="text-size-25 text-font-dm text-weight-400">Let’s Get Solution For Building Construction Work</h3>
                         <div class="d-flex justify-content-between align-items-center mt-3 mb-3">
                             <span class="text-size-16 text-weight-400">26 December,2022 </span>
-                            <img src="assets/img/vector-right-circle.svg" width="52px">
+                            <img src="{{ asset('assets/img/icons/vector-right-circle.svg') }}" width="52px">
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-md-4">
-                <a href="" class="card home-blog-card mt-md-0 mt-4">
+                <a href="{{ route('blog_details') }}" class="card home-blog-card mt-md-0 mt-4">
                     <img src="{{ asset('assets/img/page_home/home-blog-img-1.svg') }}" class="card-img-top">
                     <div class="home-blog-card-img-content text-center mb-2">
                         <span class="text-size-16 text-weight-400">Kitchan Design</span>
@@ -280,7 +280,7 @@
                         <h3 class="text-size-25 text-font-dm text-weight-400">Let’s Get Solution For Building Construction Work</h3>
                         <div class="d-flex justify-content-between align-items-center mt-3 mb-3">
                             <span class="text-size-16 text-weight-400">26 December,2022 </span>
-                            <img src="assets/img/vector-right-circle.svg" width="52px">
+                            <img src="{{ asset('assets/img/icons/vector-right-circle.svg') }}" width="52px">
                         </div>
                     </div>
                 </a>
@@ -295,7 +295,7 @@
         <h1 class="text-size-35 text-font-dm text-weight-400 d-md-none">Wanna join the interno?</h1>
         <p class="text-size-22 text-weight-400 d-md-block d-none">It is a long established fact  will be distracted.</p>
         <p class="text-size-18 text-weight-400 d-md-none">It is a long established fact  will be distracted.</p>
-        <x-button.secondary class="mt-3" href="#">Contact With Us</x-button.secondary>
+        <x-button.secondary class="mt-3" href="{{ route('contact') }}">Contact With Us</x-button.secondary>
     </div>
     {{-- end of home-contact --}}
 

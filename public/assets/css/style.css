@@ -153,7 +153,6 @@
 }
 /* end of border style */
 
-
 /* Navbar */
 .navbar {
     /* height: 110px; */
@@ -161,6 +160,11 @@
 }
 
 .nav-link:hover {
+    color: var(--primary2);
+    font-weight: bold;
+}
+
+.nav-link.active {
     color: var(--primary2);
     font-weight: bold;
 }
@@ -686,6 +690,8 @@
     justify-content: center;
     align-items: end;
 }
+/* end of project page style */
+
 /* team single page style */
 .banner_team_single {
     background-image: url("/assets/img/page_team_single/banner.svg");
@@ -704,7 +710,6 @@
     background-color: var(--primary1);
     color: white;
 }
-/* end of project page style */
 
 .pad_banner_team_single {
     width: 548px;

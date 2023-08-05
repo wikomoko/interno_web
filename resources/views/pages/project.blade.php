@@ -29,9 +29,7 @@
                                 href="#">Kitchan</a>
                         </li>
                         <li class="nav-item ">
-                            <a
-                                class="nav-link height-75 d-flex justify-content-center align-items-center color-primary-2 text-font-jost text-weight-600 text-size-18 tab_hover border-radius-18">Living
-                                Area</a>
+                            <a class="nav-link height-75 d-flex justify-content-center align-items-center color-primary-2 text-font-jost text-weight-600 text-size-18 tab_hover border-radius-18" href="#">Living Area</a>
                         </li>
                     </ul>
                 </div>

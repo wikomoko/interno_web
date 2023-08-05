@@ -99,7 +99,7 @@
                         <p class="text-font-dm color-primary-2 text-size-35 d-md-none text-center">We love design.That's how we got here.</p>
                         <p class="text-font-jost color-primary-2 text-size-22">It is a long established fact that a reader will be distracted by the of readable content .</p>
                         <div class="text-center text-md-start">
-                            <x-button.primary>
+                            <x-button.primary href="{{ route('project') }}">
                                 Our Portofolio
                             </x-button.primary>
                         </div>

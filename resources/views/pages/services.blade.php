@@ -16,7 +16,7 @@
         <section>
             <div class="row work-content">
                 <div class="col-md-4 text-center mb-5 mb-md-0">
-                    <a href="#">
+                    <a href="{{ route('services_single') }}">
                         <h3 class="text-size-25 text-font-dm text-weight-400 mb-3">Project Plan</h3>
                         <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                         <span class="text-size-18 text-weight-600">
@@ -26,7 +26,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 text-center mb-5 mb-md-0">
-                    <a href="#">
+                    <a href="{{ route('services_single') }}">
                         <h3 class="text-size-25 text-font-dm text-weight-400 mb-3">Interior Work</h3>
                         <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                         <span class="text-size-18 text-weight-600">
@@ -36,7 +36,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 text-center mb-5 mb-md-0">
-                    <a href="#">
+                    <a href="{{ route('services_single') }}">
                         <h3 class="text-size-25 text-font-dm text-weight-400 mb-3">Realization</h3>
                         <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                         <span class="text-size-18 text-weight-600">
@@ -48,7 +48,7 @@
             </div>
             <div class="row work-content mt-0">
                 <div class="col-md-4 text-center mb-5 mb-md-0">
-                    <a href="#">
+                    <a href="{{ route('services_single') }}">
                         <h3 class="text-size-25 text-font-dm text-weight-400 mb-3">2d/3d Art Work</h3>
                         <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                         <span class="text-size-18 text-weight-600">
@@ -58,7 +58,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 text-center mb-5 mb-md-0">
-                    <a href="#">
+                    <a href="{{ route('services_single') }}">
                         <h3 class="text-size-25 text-font-dm text-weight-400 mb-3">Interior Work</h3>
                         <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                         <span class="text-size-18 text-weight-600">
@@ -68,7 +68,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 text-center mb-5 mb-md-0">
-                    <a href="#">
+                    <a href="{{ route('services_single') }}">
                         <h3 class="text-size-25 text-font-dm text-weight-400 mb-3">Decoration Work</h3>
                         <p class="text-size-22 text-weight-400 mb-md-5 mb-3">There are many variations of the <br> passages of lorem Ipsum from <br> available, majority.</p>
                         <span class="text-size-18 text-weight-600">
@@ -172,7 +172,7 @@
                 <h1 class="text-size-35 text-font-dm text-weight-400 d-md-none">Wanna join the interno?</h1>
                 <p class="text-size-22 text-weight-400 d-md-block d-none">It is a long established fact  will be distracted.</p>
                 <p class="text-size-18 text-weight-400 d-md-none">It is a long established fact  will be distracted.</p>
-                <x-button.secondary class="mt-3" href="#">Contact With Us</x-button.secondary>
+                <x-button.secondary class="mt-3" href="{{ route('contact') }}">Contact With Us</x-button.secondary>
             </div>
         </section>
 
