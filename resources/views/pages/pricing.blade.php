@@ -27,7 +27,7 @@
                             <p class="mt-4">Furniture reorganization</p>
                             <p class="mt-4">Up to 5 hours meetings</p>
                         </div>
-                        <x-button.secondary href="#">Get Started</x-button.secondary>
+                        <x-button.secondary onclick="location.href = '/contact'">Get Started</x-button.secondary>
                     </div>
                 </div>
                 <div class="col-md-4 ps-md-3 pe-md-3">
@@ -45,7 +45,7 @@
                             <p class="mt-4">Kitchen design</p>
                             <p class="mt-4">Garages organization</p>
                         </div>
-                        <x-button.primary href="#">Get Started</x-button.primary>
+                        <x-button.primary onclick="location.href = '/contact'">Get Started</x-button.primary>
                     </div>
                 </div>
                 <div class="col-md-4 ps-md-4">
@@ -61,7 +61,7 @@
                             <p class="mt-4">Tables and chairs</p>
                             <p class="mt-4">Kitchens</p>
                         </div>
-                        <x-button.secondary href="#">Get Started</x-button.secondary>
+                        <x-button.secondary onclick="location.href = '/contact'">Get Started</x-button.secondary>
                     </div>
                 </div>
             </div>

@@ -172,7 +172,7 @@
                 <h1 class="text-size-35 text-font-dm text-weight-400 d-md-none">Wanna join the interno?</h1>
                 <p class="text-size-22 text-weight-400 d-md-block d-none">It is a long established fact  will be distracted.</p>
                 <p class="text-size-18 text-weight-400 d-md-none">It is a long established fact  will be distracted.</p>
-                <x-button.secondary class="mt-3" href="{{ route('contact') }}">Contact With Us</x-button.secondary>
+                <x-button.secondary class="mt-3" onclick="location.href = '/contact'">Contact With Us</x-button.secondary>
             </div>
         </section>
 

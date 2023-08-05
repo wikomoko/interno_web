@@ -8,7 +8,7 @@
         <h1 class="text-size-50 text-size-85 text-font-dm text-weight-400 d-md-none">Let Your Home <br> Be Unique</h1>
         <p class="text-size-22 text-weight-400 d-md-block d-none">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
         <p class="text-size-22 text-weight-400 d-md-none">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <x-button.primary href="#">Get Started</x-button.primary>
+        <x-button.primary href="#" onclick="location.href = '/project'">Get Started</x-button.primary>
     </div>
 </div>
 
@@ -61,7 +61,7 @@
                 <p class="text-size-22 text-weight-400 ms-3"><span class="text-size-24 text-weight-700">012345678 <br></span>Call Us Anytime</p>
             </div>
             <div class="text-md-start text-center mt-md-5 mt-4">
-                <x-button.primary href="{{ route('pricing') }}">Get Free Estimate</x-button.primary>
+                <x-button.primary onclick="location.href = '/pricing'">Get Free Estimate</x-button.primary>
             </div>
         </div>
         <div class="col-md-6">
@@ -295,7 +295,7 @@
         <h1 class="text-size-35 text-font-dm text-weight-400 d-md-none">Wanna join the interno?</h1>
         <p class="text-size-22 text-weight-400 d-md-block d-none">It is a long established fact  will be distracted.</p>
         <p class="text-size-18 text-weight-400 d-md-none">It is a long established fact  will be distracted.</p>
-        <x-button.secondary class="mt-3" href="{{ route('contact') }}">Contact With Us</x-button.secondary>
+        <x-button.secondary class="mt-3" onclick="location.href = '/contact'">Contact With Us</x-button.secondary>
     </div>
     {{-- end of home-contact --}}
 

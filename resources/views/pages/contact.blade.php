@@ -18,23 +18,23 @@
         <div class="row mt-5">
             <div class="col-md-4">
                 <div class="bg-color-primary-3 border-radius-50 p-5">
-                    <div class="d-flex align-items-center mt-5">
+                    <div class="d-flex align-items-center mt-5 clikable" onclick="location.href = '/404'">
                         <img src="{{ asset('assets/img/icons/mail_icon.svg') }}" class="pe-3" alt="">
                         <span class="text-font-jost text-size-20 color-primary-4">info@yourdomain.com</span>
                     </div>
-                    <div class="d-flex align-items-center mt-5">
+                    <div class="d-flex align-items-center mt-5 clikable" onclick="location.href = '/404'">
                         <img src="{{ asset('assets/img/icons/phone_icon.svg') }}" class="pe-3" alt="">
                         <span class="text-font-jost text-size-20 color-primary-4">+1 (378) 400-1234</span>
                     </div>
-                    <div class="d-flex align-items-center mt-5">
+                    <div class="d-flex align-items-center mt-5 clikable" onclick="location.href = '/404'">
                         <img src="{{ asset('assets/img/icons/web_icon.svg') }}" class="pe-3" alt="">
                         <span class="text-font-jost text-size-20 color-primary-4">www.yourdomain.com</span>
                     </div>
                     <div class="d-flex align-items-center mt-5 justify-content-evenly">
-                        <img src="{{ asset('assets/img/icons/facebook.svg') }}"  alt="">
-                        <img src="{{ asset('assets/img/icons/linkedin.svg') }}"  alt="">
-                        <img src="{{ asset('assets/img/icons/twitter.svg') }}"  alt="">
-                        <img src="{{ asset('assets/img/icons/instagram.svg') }}"  alt="">
+                        <img src="{{ asset('assets/img/icons/facebook.svg') }}"  alt="" onclick="location.href = '/404'" class="clikable">
+                        <img src="{{ asset('assets/img/icons/linkedin.svg') }}"  alt="" onclick="location.href = '/404'" class="clikable">
+                        <img src="{{ asset('assets/img/icons/twitter.svg') }}"  alt="" onclick="location.href = '/404'" class="clikable">
+                        <img src="{{ asset('assets/img/icons/instagram.svg') }}"  alt="" onclick="location.href = '/404'" class="clikable">
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
 </section>
 <section>
     <div class="container">
-        <img src="{{ asset('assets/img/page_contact/maps.png') }}" class="img-fluid img_round_rectange_pad w-100" alt="">
+        <img src="{{ asset('assets/img/page_contact/maps.png') }}" class="img-fluid img_round_rectange_pad w-100 clikable" alt="" onclick="location.href = '/404'">
     </div>
 </section>
 @endsection

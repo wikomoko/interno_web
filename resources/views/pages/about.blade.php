@@ -58,7 +58,7 @@
                         that it has a more-or-less normal.
                     </p>
                     <div class="container">
-                        <x-button.primary href="{{ route('faq') }}">
+                        <x-button.primary onclick="location.href = '/faq'">
                             Our Concept
                         </x-button.primary>
                     </div>
@@ -89,7 +89,7 @@
                         that it has a more-or-less normal.
                     </p>
                     <div class="container">
-                        <x-button.primary href="{{ route('project') }}">
+                        <x-button.primary onclick="location.href = '/project'">
                             Our Portfolio
                         </x-button.primary>
                     </div>
