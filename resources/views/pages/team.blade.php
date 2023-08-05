@@ -15,7 +15,7 @@
             <div class="row">
                 {{-- card --}}
                 <div class="col-md-3 mt-5">
-                    <div class="text-center">
+                    <div class="text-center clikable" onclick="location.href = '/team_single'">
                         <img src="{{ asset('assets/img/page_team/levi.jpg') }}" alt=""
                             class="img-fluid border-radius-30">
                         <span class="text-font-dm color-primary-2 text-size-25">Charlotte Levi</span>
@@ -30,7 +30,7 @@
                 {{-- end card --}}
                  {{-- card --}}
                  <div class="col-md-3 mt-5">
-                    <div class="text-center">
+                    <div class="text-center clikable" onclick="location.href = '/team_single'">
                         <img src="{{ asset('assets/img/page_team/julie.jpg') }}" alt=""
                             class="img-fluid border-radius-30">
                         <span class="text-font-dm color-primary-2 text-size-25">Nattasha Julie</span>
@@ -46,7 +46,7 @@
                 {{-- end card --}}
                  {{-- card --}}
                  <div class="col-md-3 mt-5">
-                    <div class="text-center">
+                    <div class="text-center clikable" onclick="location.href = '/team_single'">
                         <img src="{{ asset('assets/img/page_team/john.jpg') }}" alt=""
                             class="img-fluid border-radius-30 w-100">
                         <span class="text-font-dm color-primary-2 text-size-25">John Smith</span>
@@ -61,7 +61,7 @@
                 {{-- end card --}}
                  {{-- card --}}
                  <div class="col-md-3 mt-5">
-                    <div class="text-center">
+                    <div class="text-center clikable" onclick="location.href = '/team_single'">
                         <img src="{{ asset('assets/img/page_team/nora.jpg') }}" alt=""
                             class="img-fluid border-radius-30">
                         <span class="text-font-dm color-primary-2 text-size-25">Nora Owen</span>
@@ -76,7 +76,7 @@
                 {{-- end card --}}
                  {{-- card --}}
                  <div class="col-md-3 mt-5">
-                    <div class="text-center">
+                    <div class="text-center clikable" onclick="location.href = '/team_single'">
                         <img src="{{ asset('assets/img/page_team/sofia.jpg') }}" alt=""
                             class="img-fluid border-radius-30 w-100">
                         <span class="text-font-dm color-primary-2 text-size-25">Sofia Carter</span>
@@ -91,7 +91,7 @@
                 {{-- end card --}}
                  {{-- card --}}
                  <div class="col-md-3 mt-5">
-                    <div class="text-center">
+                    <div class="text-center clikable" onclick="location.href = '/team_single'">
                         <img src="{{ asset('assets/img/page_team/jackson.jpg') }}" alt=""
                             class="img-fluid border-radius-30">
                         <span class="text-font-dm color-primary-2 text-size-25">Avery Jackson</span>
@@ -107,7 +107,7 @@
                 {{-- end card --}}
                  {{-- card --}}
                  <div class="col-md-3 mt-5">
-                    <div class="text-center">
+                    <div class="text-center clikable" onclick="location.href = '/team_single'">
                         <img src="{{ asset('assets/img/page_team/james.jpg') }}" alt=""
                             class="img-fluid border-radius-30">
                         <span class="text-font-dm color-primary-2 text-size-25">Luna James</span>
@@ -122,7 +122,7 @@
                 {{-- end card --}}
                  {{-- card --}}
                  <div class="col-md-3 mt-5">
-                    <div class="text-center">
+                    <div class="text-center clikable" onclick="location.href = '/team_single'">
                         <img src="{{ asset('assets/img/page_team/mateo.jpg') }}" alt=""
                             class="img-fluid border-radius-30">
                         <span class="text-font-dm color-primary-2 text-size-25">Gianna Mateo</span>
